@@ -3,18 +3,19 @@ class Model {
     constructor(req = null) {
         this.req = req
         this.serviceType = "zoho_people"
+        this.opt = {}
     }
 
     getServiceInstance() {
         let servicesInstance = {
-            zoho_people: new ZohoPeopleServices(this.req)
+            zoho_people: new ZohoPeopleServices(this.req, this.opt)
         }
 
         return servicesInstance[this.serviceType] || null
     }
 
-    getAll(filters = null) {
-        return this.getServiceInstance().getData(filters)
+    getAll(params = null) {
+        return this.getServiceInstance().getData(params)
     }
 
     saveData() {
