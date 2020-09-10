@@ -1,0 +1,9 @@
+{
+  "functions": {
+    "targets": [
+      "bickert_zoho_api_rest_function"
+    ],
+    "ignore": [],
+    "source": "functions"
+  }
+}

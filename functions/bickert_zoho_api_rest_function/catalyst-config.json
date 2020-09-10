@@ -1,0 +1,10 @@
+{
+	"deployment": {
+		"name": "bickert_zoho_api_rest_function",
+		"stack": "node10",
+		"type": "advancedio"
+	},
+	"execution": {
+		"main": "./app/app.js"
+	}
+}

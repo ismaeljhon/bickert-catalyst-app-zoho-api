@@ -1,0 +1,35 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": 6304000000210002,
+      "name": "BickertZohoApiRest",
+      "domain": {
+        "id": 10022100584,
+        "name": "bickertzohoapirest-713530616.development"
+      },
+      "env": [
+        {
+          "idx": 1,
+          "id": "713530616",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ],
+  "migration": {
+    "1.0.2": {
+      "completed": true
+    },
+    "last_success": "1.0.2"
+  }
+}
